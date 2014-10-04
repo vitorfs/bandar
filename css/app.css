@@ -1,0 +1,30 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 0;
+}
+
+body > div {
+  height: 33.3333333333333%;
+}
+
+div div {
+  width: 33.3333333333333%;
+  height: 100%;
+  float: left;
+  cursor: pointer;
+}
+
+div div:hover {
+  -webkit-transition: background-color 350ms ease;
+  -moz-transition: background-color 350ms ease;
+  -o-transition: background-color 350ms ease;
+  transition: background-color 350ms ease;
+}
